@@ -73,10 +73,10 @@ Please note that the RX pin of the switch should be connected to the TX pin of t
 
 ```
 {
-  "vendor": "Tuya",
+  "vendor": "Tuya/Aubess",
   "bDetailed": "0",
-  "name": "MINI-W1 2-Gang WiFi Switch Module",
-  "model": "MINI-W1-2CH",
+  "name": "Mini Smart Switch 1-Gang WiFi Module",
+  "model": "Mini-Smart-Switch",
   "chip": "BK7231N",
   "board": "PSW3-23v3B",
   "flags": "1024",
@@ -86,15 +86,13 @@ Please note that the RX pin of the switch should be connected to the TX pin of t
     "TODO"
   ],
   "pins": {
-    "6": "TglChanOnTgl;1",
-    "7": "TglChanOnTgl;2",
-    "10": "Rel;1",
-    "11": "WifiLED_n;0",
-    "23": "Btn_Tgl_All;0",
-    "24": "Rel;2"
+    "6": "LED_n;1",
+    "8": "Btn;1",
+    "14": "Btn;1",
+    "15": "Rel;1"
   },
   "command": "",
-  "image": "https://raw.githubusercontent.com/ruigaspar/Flash_MINI-W1-2CH_with_OpenBK7231N/master/images/MINI-W1-2CH.jpg",
+  "image": "https://raw.githubusercontent.com/ruigaspar/Flash_Aubess_Mini-Smart-switch_with_OpenBK7231N/master/images/Mini-Smart-Switch-1CH.jpg",
   "wiki": "https://github.com/ruigaspar/Flash_MINI-W1-2CH_with_OpenBK7231N"
 }
 ```
